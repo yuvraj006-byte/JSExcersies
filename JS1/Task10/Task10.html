@@ -1,0 +1,49 @@
+<!-- Make a program that asks the user for the number of dice and the sum of the eye numbers of interest to the user.
+The purpose of your program is now to find out with what
+probability the number of dice given by the user produces the sum of the number of eyes given by the user.
+For example, if the user enters 3 as the number of dice and 17 as the sum of the eyes,
+the program calculates the probability that the sum of the three dice's eye numbers is 17. (5p) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10</title>
+</head>
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    input{
+        display: block;
+        outline: none;
+        font-style: normal;
+        font-size: xx-large;
+        width: 50%;
+        margin: 10px;   
+    }
+    button {
+        display: block;
+        margin: 10px;
+        font-style: italic;
+        font-size: larger;
+        cursor: pointer;
+        background-color: yellow;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 19%;
+    }
+
+</style>
+<body>
+    <div id="main">
+        <input type="number" id="userInput1" placeholder="Enter the Number of Die to Roll...">
+        <input type="number" id="userInput2" placeholder="Enter the Sum of the eye numbers...">
+        <button type="submit" id="userSubmit">Find Probability</button>
+    </div>
+
+    <script type="module" src="Task10.js"></script>
+</body>
+</html>
