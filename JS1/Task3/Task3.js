@@ -6,7 +6,7 @@ const numSum = input1 + input2 + input3;
 const numProduct = input1 * input2 * input3;
 const numAvg = numSum / 3;
 
-document.getElementById("main").innerHTML =
+document.getElementById("print").innerHTML =
   "Sum Of the Integers: " + numSum + "<br>" +
   "Product Of the Integers: " + numProduct + "<br>" +
-  "Average Of the Integers: " + numAvg;
+  "Average Of the Integers: " + numAvg.toFixed(2);
